@@ -1,0 +1,46 @@
+body
+{
+	background color: FFD;
+}
+#outerbox
+{
+}
+sliderbox 
+{
+	width:150px;
+	margin:auto;
+	overflow:hidden;
+}
+#sliderbox 
+{
+	padding:0;
+	width:1500px;
+	list-style:none;
+	animation:sliding 5s ease-in-out infinite
+	float:left;
+	position:relative;
+}
+#sliderbox 
+{
+	float:left;
+	position:relative;
+}
+#sliderbox h5
+    {
+	margin:0;
+	background:#333;
+	padding:15px;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	width:0;
+	color:#fff;
+	}
+@keyframes sliding
+	{
+		0%{left:0px;}
+		15%,30%{left:-300px;}
+		35%,50%{left:-600;}
+		55%,70%{left:-900px;}
+		75%,90%{left:-1200px;}
+	}
